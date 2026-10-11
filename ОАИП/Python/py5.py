@@ -34,7 +34,7 @@ n,*k,l = a.split() # * указывает на то, что объект воз�
 '''
 import random
 nums = [i for i in range(1,11)]
-myNumber = nums[random.randint(0,9)]
+myNumber = random.choice(0,9)
 tries = 3
 print("Было загадано число от 1 до 10, ваша задача - угадать\nУ вас есть 3 попытки")
 for i in range(1,tries+1):
